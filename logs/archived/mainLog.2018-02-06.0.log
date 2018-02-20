@@ -1,0 +1,93 @@
+2018-02-06 21:51:38 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-06 21:51:38 - Message from IB controller, code: 504 , message: Not connected
+2018-02-06 21:51:38 - Message from IB controller, code: 504 , message: Not connected
+2018-02-06 21:52:56 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-06 21:52:56 - Message from IB controller, code: 504 , message: Not connected
+2018-02-06 21:52:56 - Message from IB controller, code: 504 , message: Not connected
+2018-02-06 21:53:22 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-06 21:53:22 - Message from IB controller, code: 504 , message: Not connected
+2018-02-06 21:53:22 - Message from IB controller, code: 504 , message: Not connected
+2018-02-06 21:54:09 - connected with IB GW @ 6
+2018-02-06 21:54:09 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfuture
+2018-02-06 21:54:09 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:cashfarm
+2018-02-06 21:54:09 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-06 21:54:09 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-06 21:54:09 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-06 21:54:33 - NVDA ~ Order Type LMT, Order Status PreSubmitted, Order Id 1
+2018-02-06 21:54:38 - Order Id 1, Error Messag ~ Order Canceled - reason:
+2018-02-06 21:54:38 - Message from IB controller, code: 202 , message: Order Canceled - reason:
+2018-02-06 21:55:36 - connected with IB GW @ 6
+2018-02-06 21:55:36 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfuture
+2018-02-06 21:55:36 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:cashfarm
+2018-02-06 21:55:36 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-06 21:55:36 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-06 21:55:36 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-06 21:55:41 - NVDA ~ Order Type LMT, Order Status PreSubmitted, Order Id 2
+2018-02-06 21:58:43 - connected with IB GW @ 6
+2018-02-06 21:58:43 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfuture
+2018-02-06 21:58:43 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:cashfarm
+2018-02-06 21:58:43 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-06 21:58:43 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-06 21:58:43 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-06 21:58:48 - Order Id 4, Error Messag ~ Order Message:
+SELL 100 NVDA NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2018-02-07 09:30:00 US/Eastern
+2018-02-06 21:58:48 - Message from IB controller, code: 399 , message: Order Message:
+SELL 100 NVDA NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2018-02-07 09:30:00 US/Eastern
+2018-02-06 21:58:48 - NVDA ~ Order Type LMT, Order Status PreSubmitted, Order Id 4
+2018-02-06 21:58:48 - NVDA ~ Order Type LMT, Order Status PreSubmitted, Order Id 3
+2018-02-06 21:58:56 - Order Id 3, Error Messag ~ Order Canceled - reason:
+2018-02-06 21:58:56 - Message from IB controller, code: 202 , message: Order Canceled - reason:
+2018-02-06 21:58:57 - Order Id 4, Error Messag ~ Order Canceled - reason:
+2018-02-06 21:58:57 - Message from IB controller, code: 202 , message: Order Canceled - reason:
+2018-02-06 21:59:13 - Order Id -1, Error Messag ~ Bad Message Length null
+2018-02-06 21:59:13 - Message from IB controller, code: 507 , message: Bad Message Length null
+2018-02-06 22:01:38 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-06 22:01:38 - Message from IB controller, code: 504 , message: Not connected
+2018-02-06 22:01:38 - Message from IB controller, code: 504 , message: Not connected
+2018-02-06 22:01:38 - Message from IB controller, code: 504 , message: Not connected
+2018-02-06 22:02:09 - connected with IB GW @ 6
+2018-02-06 22:02:58 - connected with IB GW @ 6
+2018-02-06 22:03:09 - Order Id 3, Error Messag ~ Order Message:
+SELL 100 NVDA NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2018-02-07 09:30:00 US/Eastern
+2018-02-06 22:03:09 - Message from IB controller, code: 399 , message: Order Message:
+SELL 100 NVDA NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2018-02-07 09:30:00 US/Eastern
+2018-02-06 22:03:09 - NVDA ~ Order Type LMT, Order Status PreSubmitted, Order Id 3
+2018-02-06 22:03:09 - NVDA ~ Order Type LMT, Order Status PreSubmitted, Order Id 2
+2018-02-06 22:04:08 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-06 22:04:08 - Message from IB controller, code: 504 , message: Not connected
+2018-02-06 22:04:08 - Message from IB controller, code: 504 , message: Not connected
+2018-02-06 22:04:08 - Message from IB controller, code: 504 , message: Not connected
+2018-02-06 22:04:24 - connected with IB GW @ 6
+2018-02-06 22:04:31 - connected with IB GW @ 6
+2018-02-06 22:04:36 - Order Id 10, Error Messag ~ Order Message:
+SELL 100 NVDA NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2018-02-07 09:30:00 US/Eastern
+2018-02-06 22:04:36 - Message from IB controller, code: 399 , message: Order Message:
+SELL 100 NVDA NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2018-02-07 09:30:00 US/Eastern
+2018-02-06 22:04:36 - NVDA ~ Order Type LMT, Order Status PreSubmitted, Order Id 10
+2018-02-06 22:04:36 - NVDA ~ Order Type LMT, Order Status PreSubmitted, Order Id 9
+2018-02-06 22:06:06 - connected with IB GW @ 6
+2018-02-06 22:06:11 - NVDA ~ Order Type LMT, Order Status PreSubmitted, Order Id 9
+2018-02-06 22:06:11 - NVDA ~ Order Type LMT, Order Status PreSubmitted, Order Id 10
+2018-02-06 22:06:11 - Order Id 12, Error Messag ~ Order Message:
+SELL 100 NVDA NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2018-02-07 09:30:00 US/Eastern
+2018-02-06 22:06:11 - Message from IB controller, code: 399 , message: Order Message:
+SELL 100 NVDA NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2018-02-07 09:30:00 US/Eastern
+2018-02-06 22:06:11 - NVDA ~ Order Type LMT, Order Status PreSubmitted, Order Id 12
+2018-02-06 22:06:11 - Order Id 13, Error Messag ~ Order Message:
+SELL 100 NVDA NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2018-02-07 09:30:00 US/Eastern
+2018-02-06 22:06:11 - Message from IB controller, code: 399 , message: Order Message:
+SELL 100 NVDA NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2018-02-07 09:30:00 US/Eastern
+2018-02-06 22:06:11 - NVDA ~ Order Type STP, Order Status PreSubmitted, Order Id 13
+2018-02-06 22:06:11 - NVDA ~ Order Type LMT, Order Status PreSubmitted, Order Id 11
+2018-02-06 22:06:57 - Order Id -1, Error Messag ~ Bad Message Length null
+2018-02-06 22:06:57 - Message from IB controller, code: 507 , message: Bad Message Length null

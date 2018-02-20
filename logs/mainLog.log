@@ -1,0 +1,217 @@
+2018-02-07 08:17:16 - total volume update count : 0 , @: 7/9.17 
+2018-02-07 08:19:02 - total volume update count : 0 , @: 7/9.19 
+2018-02-07 08:19:02 - waiting for connection to establish ...
+2018-02-07 08:19:02 - connected with IB GW @ 7
+2018-02-07 08:19:02 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfuture
+2018-02-07 08:19:02 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:cashfarm
+2018-02-07 08:19:02 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-07 08:19:02 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-07 08:19:02 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-07 08:19:02 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-07 08:19:02 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-07 08:19:02 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-07 08:19:07 - disconnected
+2018-02-07 08:19:08 - Starting Account info feed...
+2018-02-07 08:19:08 - connected with IB GW @ 7
+2018-02-07 08:19:08 - Starting Position info feed...
+2018-02-07 08:19:08 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfuture
+2018-02-07 08:19:08 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:cashfarm
+2018-02-07 08:19:08 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-07 08:19:08 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-07 08:19:08 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-07 08:19:08 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-07 08:19:08 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-07 08:19:08 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-07 08:19:08 - requested livefeed for 49 tickers
+2018-02-07 08:19:09 - Message from IB controller, code: 162 , message: Historical Market Data Service error message:No market data permissions for NYSE STK
+2018-02-07 08:19:09 - Message from IB controller, code: 162 , message: Historical Market Data Service error message:No market data permissions for ISLAND STK
+2018-02-07 08:19:09 - Message from IB controller, code: 162 , message: Historical Market Data Service error message:No market data permissions for ISLAND STK
+2018-02-07 08:19:09 - Message from IB controller, code: 162 , message: Historical Market Data Service error message:No market data permissions for NYSE STK
+2018-02-07 08:19:09 - Message from IB controller, code: 162 , message: Historical Market Data Service error message:No market data permissions for ISLAND STK
+2018-02-07 08:19:09 - Message from IB controller, code: 162 , message: Historical Market Data Service error message:No market data permissions for ISLAND STK
+2018-02-07 08:19:09 - Message from IB controller, code: 162 , message: Historical Market Data Service error message:No market data permissions for NYSE STK
+2018-02-07 08:19:09 - Message from IB controller, code: 162 , message: Historical Market Data Service error message:No market data permissions for NYSE STK
+2018-02-07 08:19:09 - Message from IB controller, code: 162 , message: Historical Market Data Service error message:No market data permissions for NYSE STK
+2018-02-07 08:19:09 - Message from IB controller, code: 162 , message: Historical Market Data Service error message:No market data permissions for ISLAND STK
+2018-02-07 08:19:09 - Message from IB controller, code: 162 , message: Historical Market Data Service error message:No market data permissions for NYSE STK
+2018-02-07 08:19:09 - Message from IB controller, code: 162 , message: Historical Market Data Service error message:No market data permissions for NYSE STK
+2018-02-07 08:28:36 - total volume update count : 0 , @: 7/9.28 
+2018-02-07 08:28:36 - waiting for connection to establish ...
+2018-02-07 08:28:36 - connected with IB GW @ 7
+2018-02-07 08:28:36 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:hfarm
+2018-02-07 08:28:36 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:jfarm
+2018-02-07 08:28:36 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:eufarm
+2018-02-07 08:28:36 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfuture
+2018-02-07 08:28:36 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:cashfarm
+2018-02-07 08:28:36 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-07 08:28:36 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-07 08:28:36 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-07 08:28:36 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-07 08:28:36 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-07 08:28:36 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-07 08:28:41 - disconnected
+2018-02-07 08:28:42 - Starting Account info feed...
+2018-02-07 08:28:42 - connected with IB GW @ 7
+2018-02-07 08:28:42 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:hfarm
+2018-02-07 08:28:42 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:jfarm
+2018-02-07 08:28:42 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:eufarm
+2018-02-07 08:28:42 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfuture
+2018-02-07 08:28:42 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:cashfarm
+2018-02-07 08:28:42 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-07 08:28:42 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-07 08:28:42 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-07 08:28:42 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-07 08:28:42 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-07 08:28:42 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-07 08:28:42 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:28:42 - Starting Position info feed...
+2018-02-07 08:28:43 - requested livefeed for 49 tickers
+2018-02-07 08:30:21 - total volume update count : 0 , @: 7/9.30 
+2018-02-07 08:30:21 - waiting for connection to establish ...
+2018-02-07 08:30:21 - connected with IB GW @ 7
+2018-02-07 08:30:21 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-07 08:30:21 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-07 08:30:21 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-07 08:30:21 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-07 08:30:21 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-07 08:30:21 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-07 08:30:26 - disconnected
+2018-02-07 08:30:27 - Starting Account info feed...
+2018-02-07 08:30:27 - connected with IB GW @ 7
+2018-02-07 08:30:27 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-07 08:30:27 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-07 08:30:27 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-07 08:30:27 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-07 08:30:27 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-07 08:30:27 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-07 08:30:27 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:30:27 - Starting Position info feed...
+2018-02-07 08:30:28 - requested livefeed for 49 tickers
+2018-02-07 08:31:20 - disconnected
+2018-02-07 08:31:20 - waiting for connection to establish ...
+2018-02-07 08:31:20 - connected with IB GW @ 7
+2018-02-07 08:31:20 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-07 08:31:20 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-07 08:31:20 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-07 08:31:20 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-07 08:31:20 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-07 08:31:20 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-07 08:31:25 - disconnected
+2018-02-07 08:31:26 - Starting Account info feed...
+2018-02-07 08:31:26 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:31:26 - Starting Position info feed...
+2018-02-07 08:31:26 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:31:26 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:31:26 - connected with IB GW @ 7
+2018-02-07 08:31:26 - requested livefeed for 49 tickers
+2018-02-07 08:31:26 - Order Id -1, Error Messag ~ Market data farm connection is OK:usfarm.us
+2018-02-07 08:31:26 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-07 08:31:26 - Order Id -1, Error Messag ~ Market data farm connection is OK:usfarm
+2018-02-07 08:31:26 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-07 08:31:26 - Order Id -1, Error Messag ~ HMDS data farm connection is OK:ilhmds
+2018-02-07 08:31:26 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-07 08:31:26 - Order Id -1, Error Messag ~ HMDS data farm connection is OK:euhmds
+2018-02-07 08:31:26 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-07 08:31:26 - Order Id -1, Error Messag ~ HMDS data farm connection is OK:fundfarm
+2018-02-07 08:31:26 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-07 08:31:26 - Order Id -1, Error Messag ~ HMDS data farm connection is OK:ushmds
+2018-02-07 08:31:26 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-07 08:32:20 - Starting Account info feed...
+2018-02-07 08:32:20 - Starting Position info feed...
+2018-02-07 08:32:20 - requested livefeed for 49 tickers
+2018-02-07 08:46:05 - Order Id -1, Error Messag ~ Bad Message Length null
+2018-02-07 08:46:05 - Order Id -1, Error Messag ~ Bad Message Length null
+2018-02-07 08:46:05 - Message from IB controller, code: 507 , message: Bad Message Length null
+2018-02-07 08:46:20 - disconnected
+2018-02-07 08:46:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:46:20 - waiting for connection to establish ...
+2018-02-07 08:46:25 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:46:26 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:46:26 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 08:47:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:47:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:47:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 08:48:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:48:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:48:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 08:49:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:49:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:49:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 08:50:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:50:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:50:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 08:51:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:51:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:51:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 08:52:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:52:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:52:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 08:53:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:53:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:53:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 08:54:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:54:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:54:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 08:55:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:55:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:55:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 08:56:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:56:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:56:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 08:57:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:57:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:57:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 08:58:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:58:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:58:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 08:59:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 08:59:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 08:59:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:00:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:00:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:00:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:01:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:01:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:01:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:02:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:02:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:02:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:03:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:03:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:03:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:04:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:04:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:04:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:05:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:05:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:05:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:06:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:06:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:06:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:07:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:07:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:07:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:08:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:08:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:08:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:09:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:09:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:09:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:10:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:10:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:10:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:11:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:11:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:11:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:12:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:12:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:12:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:13:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:13:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:13:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:14:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:14:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:14:20 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-07 09:15:20 - Message from IB controller, code: 504 , message: Not connected
+2018-02-07 09:15:20 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-07 09:15:20 - IB Controller is OFF, please turn on TWS and try again!

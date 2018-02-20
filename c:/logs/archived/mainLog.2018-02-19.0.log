@@ -1,0 +1,408 @@
+2018-02-19 18:25:14 - NVDA ~ Trade recomendations : date :02/19/2018, Time-Taken(Sec): 8 ,gap:-0.64, matchedTrades: 73, status: Ready, - SELL, 229.37, 226.78, 227.29, 227.72, 73, 0.27999999999999997, 82.19, 17.81, true
+2018-02-19 18:30:11 - NVDA ~ Trade recomendations : date :02/19/2018, Time-Taken(Sec): 7 ,gap:-2.82, matchedTrades: 15, status: Ready, - SELL, 229.42, 225.33, 225.76, 226.71, 15, 0.27999999999999997, 93.33, 6.67, true
+2018-02-19 18:36:35 - NVDA ~ Trade recomendations : date :02/19/2018, Time-Taken(Sec): 18 ,gap:-1.41, matchedTrades: 122, status: Ready, - null, 239.44, 236.98, 237.49, 238.25, 122, 0.27999999999999997, 67.21, 32.79, false
+2018-02-19 19:02:48 - Initializing ...
+2018-02-19 19:02:48 - Message from IB controller, code: 502 , message: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+2018-02-19 19:02:48 - IB Controller is OFF, please turn on TWS and try again!
+2018-02-19 19:02:51 - Notification sent to: 4083077700@mms.att.net, content: Terminated @ 20.02
+2018-02-19 19:03:58 - Initializing ...
+2018-02-19 19:03:58 - waiting for connection to establish ...
+2018-02-19 19:03:58 - connected with IB GW @ 19
+2018-02-19 19:04:03 - waiting for connection to establish ...
+2018-02-19 19:05:00 - Initializing ...
+2018-02-19 19:05:00 - waiting for connection to establish ...
+2018-02-19 19:05:00 - connected with IB GW @ 19
+2018-02-19 19:05:00 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:hfarm
+2018-02-19 19:05:00 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:eufarm
+2018-02-19 19:05:00 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:jfarm
+2018-02-19 19:05:00 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfuture
+2018-02-19 19:05:00 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:cashfarm
+2018-02-19 19:05:00 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 19:05:00 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:05:00 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:05:00 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:05:00 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:05:00 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:05:05 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:05:05 - Message from IB controller, code: 200 , message: Invalid destination exchange specified
+2018-02-19 19:05:28 - Initializing ...
+2018-02-19 19:05:28 - waiting for connection to establish ...
+2018-02-19 19:05:28 - connected with IB GW @ 19
+2018-02-19 19:05:28 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:hfarm
+2018-02-19 19:05:28 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:eufarm
+2018-02-19 19:05:28 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:jfarm
+2018-02-19 19:05:28 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfuture
+2018-02-19 19:05:28 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:cashfarm
+2018-02-19 19:05:28 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 19:05:28 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:05:28 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:05:28 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:05:28 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:05:28 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:05:33 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:05:51 - Initializing ...
+2018-02-19 19:05:51 - waiting for connection to establish ...
+2018-02-19 19:05:52 - Message from IB controller, code: 507 , message: Bad Message Length null
+2018-02-19 19:05:56 - waiting for connection to establish ...
+2018-02-19 19:06:01 - waiting for connection to establish ...
+2018-02-19 19:06:06 - waiting for connection to establish ...
+2018-02-19 19:06:11 - waiting for connection to establish ...
+2018-02-19 19:10:58 - Initializing ...
+2018-02-19 19:10:58 - waiting for connection to establish ...
+2018-02-19 19:11:03 - waiting for connection to establish ...
+2018-02-19 19:11:08 - waiting for connection to establish ...
+2018-02-19 19:11:13 - waiting for connection to establish ...
+2018-02-19 19:11:18 - waiting for connection to establish ...
+2018-02-19 19:11:23 - waiting for connection to establish ...
+2018-02-19 19:11:28 - waiting for connection to establish ...
+2018-02-19 19:11:33 - waiting for connection to establish ...
+2018-02-19 19:11:38 - waiting for connection to establish ...
+2018-02-19 19:11:43 - waiting for connection to establish ...
+2018-02-19 19:11:59 - Initializing ...
+2018-02-19 19:11:59 - waiting for connection to establish ...
+2018-02-19 19:11:59 - connected with IB GW @ 19
+2018-02-19 19:11:59 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:11:59 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:11:59 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:11:59 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:11:59 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:12:04 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:12:05 - disconnected
+2018-02-19 19:15:35 - Initializing ...
+2018-02-19 19:15:36 - waiting for connection to establish ...
+2018-02-19 19:15:36 - connected with IB GW @ 19
+2018-02-19 19:15:36 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:15:36 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:15:36 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:15:36 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:15:36 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:15:41 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:15:42 - disconnected
+2018-02-19 19:18:01 - Initializing ...
+2018-02-19 19:18:01 - waiting for connection to establish ...
+2018-02-19 19:18:01 - connected with IB GW @ 19
+2018-02-19 19:18:01 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:18:01 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:18:01 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:18:01 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:18:01 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:18:06 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:18:07 - disconnected
+2018-02-19 19:19:27 - Initializing ...
+2018-02-19 19:19:27 - waiting for connection to establish ...
+2018-02-19 19:19:27 - connected with IB GW @ 19
+2018-02-19 19:19:27 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:19:27 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:19:27 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:19:27 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:19:27 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:19:32 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:19:33 - disconnected
+2018-02-19 19:19:33 - null ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 0 ,gap:-1.41, matchedTrades: 0, status: Historical data not found!, - No Recom
+2018-02-19 19:20:41 - Initializing ...
+2018-02-19 19:20:42 - waiting for connection to establish ...
+2018-02-19 19:20:42 - connected with IB GW @ 19
+2018-02-19 19:20:42 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:20:42 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:20:42 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:20:42 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:20:42 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:20:47 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:20:48 - disconnected
+2018-02-19 19:22:04 - Initializing ...
+2018-02-19 19:22:04 - waiting for connection to establish ...
+2018-02-19 19:22:04 - connected with IB GW @ 19
+2018-02-19 19:22:04 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:22:04 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:22:04 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:22:04 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:22:04 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:22:09 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:22:10 - disconnected
+2018-02-19 19:22:10 - null ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 0 ,gap:-1.41, matchedTrades: 0, status: Historical data not found!, - No Recom
+2018-02-19 19:22:22 - Initializing ...
+2018-02-19 19:22:22 - waiting for connection to establish ...
+2018-02-19 19:22:22 - connected with IB GW @ 19
+2018-02-19 19:22:22 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:22:22 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:22:22 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:22:22 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:22:22 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:22:42 - Initializing ...
+2018-02-19 19:22:42 - waiting for connection to establish ...
+2018-02-19 19:22:42 - connected with IB GW @ 19
+2018-02-19 19:22:42 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:22:42 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:22:42 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:22:42 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:22:42 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:22:47 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:22:48 - disconnected
+2018-02-19 19:23:37 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 43 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 19:28:20 - Initializing ...
+2018-02-19 19:28:20 - waiting for connection to establish ...
+2018-02-19 19:28:20 - connected with IB GW @ 19
+2018-02-19 19:28:20 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:28:20 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:28:20 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:28:20 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:28:20 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:28:25 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:28:26 - disconnected
+2018-02-19 19:28:52 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 25 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 19:34:32 - Initializing ...
+2018-02-19 19:34:32 - waiting for connection to establish ...
+2018-02-19 19:34:32 - connected with IB GW @ 19
+2018-02-19 19:34:32 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:34:32 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:34:32 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:34:32 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:34:32 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:34:37 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:34:38 - disconnected
+2018-02-19 19:35:01 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 23 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 19:39:27 - Initializing ...
+2018-02-19 19:39:27 - waiting for connection to establish ...
+2018-02-19 19:39:27 - connected with IB GW @ 19
+2018-02-19 19:39:27 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:39:27 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:39:27 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:39:27 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:39:27 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:39:32 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:39:33 - disconnected
+2018-02-19 19:39:57 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 23 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 19:52:45 - Initializing ...
+2018-02-19 19:52:45 - waiting for connection to establish ...
+2018-02-19 19:52:45 - connected with IB GW @ 19
+2018-02-19 19:52:45 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:52:45 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:52:45 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:52:45 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:52:45 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:52:50 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:52:51 - disconnected
+2018-02-19 19:53:15 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 24 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 19:53:58 - Initializing ...
+2018-02-19 19:53:58 - waiting for connection to establish ...
+2018-02-19 19:53:58 - connected with IB GW @ 19
+2018-02-19 19:53:58 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:53:58 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:53:58 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:53:58 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:53:58 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:54:03 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:54:04 - disconnected
+2018-02-19 19:54:27 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 23 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 19:55:29 - Initializing ...
+2018-02-19 19:55:29 - waiting for connection to establish ...
+2018-02-19 19:55:29 - connected with IB GW @ 19
+2018-02-19 19:55:29 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 19:55:29 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 19:55:29 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 19:55:29 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 19:55:29 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 19:55:34 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 19:55:35 - disconnected
+2018-02-19 19:55:59 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 23 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 20:08:12 - Initializing ...
+2018-02-19 20:08:13 - waiting for connection to establish ...
+2018-02-19 20:08:13 - connected with IB GW @ 19
+2018-02-19 20:08:13 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 20:08:13 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 20:08:13 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 20:08:13 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 20:08:13 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 20:08:13 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 20:08:18 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 20:08:19 - disconnected
+2018-02-19 20:08:43 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 24 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 20:14:56 - Initializing ...
+2018-02-19 20:14:56 - waiting for connection to establish ...
+2018-02-19 20:14:56 - connected with IB GW @ 19
+2018-02-19 20:14:56 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 20:14:56 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 20:14:56 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 20:14:56 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 20:14:56 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 20:14:56 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 20:15:01 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 20:15:02 - disconnected
+2018-02-19 20:15:25 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 23 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 20:16:48 - Initializing ...
+2018-02-19 20:16:48 - waiting for connection to establish ...
+2018-02-19 20:16:48 - connected with IB GW @ 19
+2018-02-19 20:16:48 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 20:16:48 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 20:16:48 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 20:16:48 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 20:16:48 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 20:16:48 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 20:16:53 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 20:16:54 - disconnected
+2018-02-19 20:17:18 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 23 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 22:00:52 - Initializing ...
+2018-02-19 22:00:53 - waiting for connection to establish ...
+2018-02-19 22:00:53 - connected with IB GW @ 19
+2018-02-19 22:00:53 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 22:00:53 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 22:00:53 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 22:00:53 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 22:00:53 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 22:00:53 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 22:00:58 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 22:00:59 - disconnected
+2018-02-19 22:01:23 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 24 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 22:03:34 - Initializing ...
+2018-02-19 22:03:35 - waiting for connection to establish ...
+2018-02-19 22:03:35 - connected with IB GW @ 19
+2018-02-19 22:03:35 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 22:03:35 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 22:03:35 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 22:03:35 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 22:03:35 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 22:03:35 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 22:03:40 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 22:03:41 - disconnected
+2018-02-19 22:04:04 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 23 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 22:09:53 - Initializing ...
+2018-02-19 22:09:53 - waiting for connection to establish ...
+2018-02-19 22:09:53 - connected with IB GW @ 19
+2018-02-19 22:09:53 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 22:09:53 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 22:09:53 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 22:09:53 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 22:09:53 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 22:09:53 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 22:09:58 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 22:09:59 - disconnected
+2018-02-19 22:10:23 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 23 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 22:13:47 - Initializing ...
+2018-02-19 22:13:47 - waiting for connection to establish ...
+2018-02-19 22:13:47 - connected with IB GW @ 19
+2018-02-19 22:13:47 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 22:13:47 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 22:13:47 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 22:13:47 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 22:13:47 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 22:13:47 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 22:13:52 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 22:13:53 - disconnected
+2018-02-19 22:14:17 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 23 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 22:16:31 - Initializing ...
+2018-02-19 22:16:31 - waiting for connection to establish ...
+2018-02-19 22:16:31 - connected with IB GW @ 19
+2018-02-19 22:16:31 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 22:16:31 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 22:16:31 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 22:16:31 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 22:16:31 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 22:16:31 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 22:16:36 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 22:16:37 - disconnected
+2018-02-19 22:17:02 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 25 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 22:20:39 - Initializing ...
+2018-02-19 22:20:39 - waiting for connection to establish ...
+2018-02-19 22:20:39 - connected with IB GW @ 19
+2018-02-19 22:20:39 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 22:20:39 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 22:20:39 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 22:20:39 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 22:20:39 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 22:20:39 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 22:20:44 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 22:20:45 - disconnected
+2018-02-19 22:21:09 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 24 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 22:22:36 - Initializing ...
+2018-02-19 22:22:36 - waiting for connection to establish ...
+2018-02-19 22:22:36 - connected with IB GW @ 19
+2018-02-19 22:22:36 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 22:22:36 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 22:22:36 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 22:22:36 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 22:22:36 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 22:22:36 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 22:22:41 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 22:22:42 - disconnected
+2018-02-19 22:23:07 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 24 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 22:24:46 - Initializing ...
+2018-02-19 22:24:47 - waiting for connection to establish ...
+2018-02-19 22:24:47 - connected with IB GW @ 19
+2018-02-19 22:24:47 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 22:24:47 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 22:24:47 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 22:24:47 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 22:24:47 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 22:24:47 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 22:24:52 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 22:24:53 - disconnected
+2018-02-19 22:25:18 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 25 ,gap:-1.41, matchedTrades: 144, status: Ready, - null, 247.95999999999998, 245.4, 245.95, 246.57, 144, 0.27999999999999997, 67.36, 32.64, false
+2018-02-19 22:39:58 - Initializing ...
+2018-02-19 22:39:59 - waiting for connection to establish ...
+2018-02-19 22:39:59 - connected with IB GW @ 19
+2018-02-19 22:39:59 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 22:39:59 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 22:39:59 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 22:39:59 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 22:39:59 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 22:39:59 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 22:40:04 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 22:40:05 - disconnected
+2018-02-19 22:40:13 - NVDA ~ Trade recomendations : date :02/13/2018, Time-Taken(Sec): 8 ,gap:-0.6446520194711217, matchedTrades: 75, status: Ready, - SELL, 229.32999999999998, 226.75, 227.23, 227.63, 75, 0.27999999999999997, 82.67, 17.33, true
+2018-02-19 22:40:22 - Initializing ...
+2018-02-19 22:40:23 - waiting for connection to establish ...
+2018-02-19 22:40:23 - connected with IB GW @ 19
+2018-02-19 22:40:23 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 22:40:23 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 22:40:23 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 22:40:23 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 22:40:23 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 22:40:23 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 22:40:28 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 22:40:29 - disconnected
+2018-02-19 22:42:07 - Initializing ...
+2018-02-19 22:42:07 - waiting for connection to establish ...
+2018-02-19 22:42:07 - connected with IB GW @ 19
+2018-02-19 22:42:07 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 22:42:07 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 22:42:07 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 22:42:07 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 22:42:07 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 22:42:07 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 22:42:12 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 22:42:13 - disconnected
+2018-02-19 22:43:00 - Initializing ...
+2018-02-19 22:43:01 - waiting for connection to establish ...
+2018-02-19 22:43:01 - connected with IB GW @ 19
+2018-02-19 22:43:01 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 22:43:01 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 22:43:01 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 22:43:01 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 22:43:01 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 22:43:01 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 22:43:06 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 22:43:07 - disconnected
+2018-02-19 22:43:38 - Initializing ...
+2018-02-19 22:43:38 - waiting for connection to establish ...
+2018-02-19 22:43:38 - connected with IB GW @ 19
+2018-02-19 22:43:38 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 22:43:38 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 22:43:38 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 22:43:38 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 22:43:38 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 22:43:38 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 22:43:43 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 22:43:44 - disconnected
+2018-02-19 22:44:09 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 25 ,gap:1.391765388120294, matchedTrades: 179, status: Ready, - null, 241.15, 242.59, 243.26, 243.71, 179, 0.27999999999999997, 53.8, 46.2, false
+2018-02-19 22:46:55 - Initializing ...
+2018-02-19 22:46:55 - waiting for connection to establish ...
+2018-02-19 22:46:55 - connected with IB GW @ 19
+2018-02-19 22:46:55 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm.us
+2018-02-19 22:46:55 - Message from IB controller, code: 2104 , message: Market data farm connection is OK:usfarm
+2018-02-19 22:46:55 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ilhmds
+2018-02-19 22:46:55 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:euhmds
+2018-02-19 22:46:55 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:fundfarm
+2018-02-19 22:46:55 - Message from IB controller, code: 2106 , message: HMDS data farm connection is OK:ushmds
+2018-02-19 22:47:00 - API Connection established on Port No 4002 and connection Id 3
+2018-02-19 22:47:01 - disconnected
+2018-02-19 22:47:27 - NVDA ~ Trade recomendations : date :02/15/2018, Time-Taken(Sec): 25 ,gap:1.391765388120294, matchedTrades: 179, status: Ready, - null, 241.15, 242.59, 243.26, 243.71, 179, 0.27999999999999997, 53.8, 46.2, false
