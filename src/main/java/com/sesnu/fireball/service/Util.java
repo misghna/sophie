@@ -485,7 +485,7 @@ public class Util {
 			Calendar calendar = Calendar.getInstance();
 			calendar.setTimeZone(TimeZone.getTimeZone("America/New_York"));
 			calendar.setTimeInMillis(time);
-			DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+			DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm");
 			return dateFormat.format(calendar.getTime());
 		}
 	    

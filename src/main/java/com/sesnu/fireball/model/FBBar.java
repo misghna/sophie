@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 
+import com.datastax.driver.core.Row;
 import com.ib.controller.Bar;
 import com.sesnu.fireball.service.Util;
 
@@ -620,6 +621,33 @@ public class FBBar implements Serializable{
 				this.low = Double.parseDouble(barC[4]);	
 				this.close = Double.parseDouble(barC[5]);
 				this.volume = Long.parseLong(barC[6]);
+			}
+			this.height=Util.roundTo2D(high-low);
+			
+			if(close==open) this.candleType = CandlePatternType.DOJI;
+			
+			else if(close>open) this.candleType = CandlePatternType.BULLISH;
+			
+			else if(close<open) this.candleType = CandlePatternType.BEARISH;
+
+			this.bodyHeight= Math.abs(open-close);
+			
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+	
+	public FBBar (String ticker,Row row){
+		try{
+
+			if(row!=null){
+				this.ticker = ticker;
+				this.startTime = row.getLong("time");
+				this.open = row.getDouble("open");		
+				this.high = row.getDouble("high");	
+				this.low = row.getDouble("low");	
+				this.close = row.getDouble("close");	
+				this.volume = row.getLong("volume");
 			}
 			this.height=Util.roundTo2D(high-low);
 			

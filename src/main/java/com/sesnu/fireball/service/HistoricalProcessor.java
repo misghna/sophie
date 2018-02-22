@@ -441,6 +441,8 @@ public class HistoricalProcessor implements Runnable {
 			if(!file.exists()){
 				status="Historical data not found!";
 				return barList;
+			}else {
+				mainL.info("fetching {}",xBar.getTicker());
 			}			
 			
 
@@ -470,6 +472,10 @@ public class HistoricalProcessor implements Runnable {
 		if(barList.size()==0){
 			status="Historical data not found!";
 		}
+		
+
+		mainL.info("fetching {}, returned {}",xBar.getTicker(),barList.size());
+
 		return barList;
 	}
 

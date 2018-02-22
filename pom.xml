@@ -205,6 +205,13 @@
 		    <artifactId>httpclient</artifactId>
 		    <version>4.3.6</version>
 		</dependency> -->
+		
+		<dependency>
+		    <groupId>com.datastax.cassandra</groupId>
+		    <artifactId>cassandra-driver-core</artifactId>
+		    <version>3.4.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
