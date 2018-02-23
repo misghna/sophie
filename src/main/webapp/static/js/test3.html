@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+    function drawChart() {
+        var data1 = new google.visualization.DataTable();
+        data1.addColumn('timeofday', 'Time');
+        data1.addColumn('number', 'Live');
+        
+        data1.addRows([
+            [[8, 30, 0], 3],
+            [[8, 31, 0], 6],
+            [[8, 32, 0], 5],
+
+        ]);
+        
+        var data2 = new google.visualization.DataTable();
+        data2.addColumn('timeofday', 'Time');
+        data2.addColumn('number', 'PR');
+        data2.addColumn('number', 'S');
+        data2.addColumn('number', 'R');
+        
+        data2.addRows([
+            [[8, 30, 0], 5,2,7],
+            [[8, 31, 0], 4,2,7],
+            [[8, 32, 0], 5,2,7],
+            [[8, 33, 0], 5.5,2,7],
+            [[8, 34, 0], 4.9,2,7]
+        ]);
+        
+        var joinedData = google.visualization.data.join(data1, data2, 'full', [[0, 0]], [1], [1,2,3]);
+        
+        var chart = new google.visualization.LineChart(document.querySelector('#chart_div'));
+        chart.draw(joinedData, {
+            interpolateNulls: true,
+            series: {
+                0: { lineDashStyle: [0, 0] },
+                1: { lineDashStyle: [2, 2] },
+                2: { lineDashStyle: [2, 2] },
+                3: { lineDashStyle: [2, 2] }
+                }
+        });
+    }
+    google.charts.load('current', {packages: ['corechart', 'line']});
+    google.charts.setOnLoadCallback(drawChart);
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width:100%; height: 500px;"></div>
+  </body>
+</html>
