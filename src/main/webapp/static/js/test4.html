@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+    google.charts.load('current', {packages: ['corechart', 'line']});
+    google.charts.setOnLoadCallback(drawTrendlines);
+
+    function drawTrendlines() {
+          var data = new google.visualization.DataTable();
+          data.addColumn('timeofday', 'Time');
+          data.addColumn('number', 'Live');
+          data.addColumn('number', 'H1');
+          data.addColumn('number', 'resistance');
+          data.addColumn('number', 'support');
+
+          data.addRows([
+            [[8, 30, 0], 12, 12.10,14,10],  [[8, 31, 0], 13, 13,14,10],   [[8, 32, 0], 13, 13.10,14,10],  [[8, 33, 0], 13, 12.90,14,10]
+          ]);
+
+          var options = {
+            hAxis: {
+              title: 'Time'
+            },
+            vAxis: {
+              title: 'Price'
+            },
+            colors: ['#007329','#007329',  '#AB0D06', '#AB0D06'],
+            series: {
+                0: { lineDashStyle: [2, 2] },
+                1: { lineDashStyle: [2, 2] },
+                2: { lineDashStyle: [2, 2] }
+                }
+          };
+
+          var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+          chart.draw(data, options);
+        }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width:100%; height: 500px;"></div>
+  </body>
+</html>
