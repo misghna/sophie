@@ -37,7 +37,8 @@ public class CassWriter implements Runnable {
 				 long prevTime=0;
 				while ((sCurrentLine = br.readLine()) != null) { 
 					if(sCurrentLine.indexOf("symbol")==-1 && sCurrentLine.indexOf("Date")==-1){
-						FBBar bar = new FBBar(sCurrentLine,"historical",ticker);					
+						FBBar bar = new FBBar(sCurrentLine,"historical",ticker);	
+//						if(Util.getDateStr(bar.getStartTime()).replaceAll("/", "").equals("12302002"))System.out.println(bar.toCSV());
 						if(barList.size()>1 && Util.getDate(barList.get(barList.size()-1).getStartTime())+1== Util.getDate(bar.getStartTime())){
 							double changePerc = (barList.get(barList.size()-1).close()-barList.get(0).open())/barList.get(0).open() * 100;	
 							String candleT=barList.get(0).open()>barList.get(0).close()?"br":"bl";

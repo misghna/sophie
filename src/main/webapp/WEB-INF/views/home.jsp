@@ -17,6 +17,7 @@
 <!-- 	<script src="../static/js/Chart.min.js"></script> -->
 <script src="../static/js/raphael.js"></script>
 <script src="../static/js/justgage.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	
 	 <style id="textinput-controlgroup">
 			 .marginRight { float:right;
@@ -96,7 +97,8 @@
 	
 	
 	$( document ).ready(function() {
-		drawChart();
+
+
 		    $("#stat").text("Loading ...");
 			var totalRealized=0;
 			var totalUnRealized=0;
@@ -186,6 +188,15 @@
 	        					gd[3] + "</td><td>" + gd[4] +"</td><td>" + gd[5] +"</td><td>" + gd[6] +"</td><td>" + gd[7] +"</td><td>" + gd[8] +"</td><td>" + gd[9] +"</td></tr>";
 	        		 $("#gapDownScanner").append(row); 
 	        		 sortTable("gapDownScanner",0);
+	        	}else if(msg.indexOf("chartData_")>-1){
+	        		if(msg.indexOf("Pred")>-1){
+	        			histData=JSON.parse(msg.split("-")[1]);
+	        		}else if(msg.indexOf("Live")>-1){
+	        			liveData=JSON.parse(msg.split("-")[1]);
+	        		}
+	        				
+	        		google.charts.load('current', {packages: ['corechart', 'line']});
+	        		google.charts.setOnLoadCallback(drawChart);
 	        	}
 	        }
 	        
@@ -207,16 +218,6 @@
 	        });
 
 	        
-/* 	        var host = document.location.host;
-	        var pathname = document.location.pathname;
-	    	var ws = new WebSocket("ws://" +host  + "/helloo");	    		
-	    	
-	    	ws.onmessage = function(event) {
-	    	    
-	    	        var message = JSON.parse(event.data);  
-	    	        
-	    	    }; */
-	    
 
 	   	function drawGuage(val){
    	    	var minv = 0;
@@ -357,7 +358,7 @@
 </div><!-- /page two -->
 
 
-<!-- Start of second page: #two -->
+<!-- Start of third page: #third -->
 <div data-role="page" id="three" data-theme="a">
 
 	<div data-role="header">
@@ -384,10 +385,8 @@
 	</div><!-- /header -->
 
 	<div role="main" class="ui-content">
-		Gap Down
-		<table width="100%" id="gapDownScanner">
-				<tr><th>Rank</th><th>Ticker</th><th>Gap</th><th>Gap%</th><th>Float(M)</th><th>AvgVol(M)</th><th>Vol(M)</th><th>Max-Day-Change%</th><th>Price</th><th>MarketCap(M)</th></tr>
-			</table>
+		Progress chart
+		 <div id="chart_div" style="width:100%; height: 500px;"></div>
 		
 	</div><!-- /content -->
 
@@ -419,48 +418,6 @@
 </html>
 
 
-    <script type="text/javascript">
-      function drawChart() {
-        $('#example-8').jqCandlestick({
-          data: data,
-          theme: 'light',
-          yAxis: [{
-            height: 7, // 7 / (7 + 3)
-          }, {
-            height: 3, // 3 / (7 + 3)
-          }],
-          series: [{
-            type: 'candlestick',
-            upStroke: '#0C0',
-            downStroke: '#C00',
-            downColor: 'rgba(255, 0, 0, 0.4)',
-          }, {
-            type: 'column',
-            name: 'VOLUME',
-            yAxis: 1,
-            stroke: '#00C',
-            color: 'rgba(0, 0, 255, 0.5)',
-          }],
-        });
-      }
-
-    </script>
-    
-    
-    <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 
 <script>
 
@@ -500,45 +457,54 @@ function sortTable(tableId,sortColIdx) {
 	}
 	
 
+var liveData = [
+    [[8, 30, 0], 3],
+    [[8, 31, 0], 6],
+    [[8, 32, 0], 5],
+];
 
-function loadChart(){
+var histData = [
+    [[9, 30, 0], 244,243,246],
+    [[9, 31, 0], 244.50,243,246],
+    [[9, 32, 0], 245,243,246],
+    [[9, 33, 0], 245.1,243,246],
+    [[9, 34, 0], 245,243,246]
+];
 
-	var data = [];
-
-	var time = new Date('2013-12-01 12:00').valueOf();
-
-	var h = Math.floor(Math.random() * 100);
-	var l = h - Math.floor(Math.random() * 20);
-	var o = h - Math.floor(Math.random() * (h - l));
-	var c = h - Math.floor(Math.random() * (h - l));
-
-	var v = Math.floor(Math.random() * 1000);
-
-	for (var i = 0; i < 30; i++) {
-	  data.push([time, o, h, l, c, v]);
-	  h += Math.floor(Math.random() * 10 - 5);
-	  l = h - Math.floor(Math.random() * 20);
-	  o = h - Math.floor(Math.random() * (h - l));
-	  c = h - Math.floor(Math.random() * (h - l));
-	  v += Math.floor(Math.random() * 100 - 50);
-	  time += 30 * 60000; // Add 30 minutes
-	}
-	
-	$('#demo').jqCandlestick({
-		data: data,
-		theme: 'light',
-		series: [{
-		type: 'candlestick',
-		color: '#00C',
-		}],
-		});
-
-	
+function drawChart() {
+    var data1 = new google.visualization.DataTable();
+    data1.addColumn('timeofday', 'Time');
+    data1.addColumn('number', 'Live');
+    
+    data1.addRows(liveData);  
+    
+    var data2 = new google.visualization.DataTable();
+    data2.addColumn('timeofday', 'Time');
+    data2.addColumn('number', 'PR');
+    data2.addColumn('number', 'S');
+    data2.addColumn('number', 'R');
+    
+    data2.addRows(histData);
+    
+    var joinedData = google.visualization.data.join(data1, data2, 'full', [[0, 0]], [1], [1,2,3]);
+    
+    var chart = new google.visualization.LineChart(document.querySelector('#chart_div'));
+    chart.draw(joinedData, {
+        interpolateNulls: true,
+        series: {
+            0: { lineDashStyle: [0, 0] },
+            1: { lineDashStyle: [2, 2] },
+            2: { lineDashStyle: [2, 2] },
+            3: { lineDashStyle: [2, 2] }
+            },
+         explorer: {axis: 'horizontal' },
+         vAxis: {
+        	 viewWindowMode:'pretty' 
+           }
+    });
 }
-
 
 
 </script>
 
-<script type="text/javascript" src="../static/js/jquery.jqcandlestick.min.js"></script>
 

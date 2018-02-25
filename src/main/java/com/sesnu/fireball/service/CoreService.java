@@ -165,6 +165,7 @@ public class CoreService {
 //		List<String> tickerList2 = Arrays.asList(new String[]{"FCX","ALXN","BIIB","MRO","CHK","HBI","AGN","FLIR","CTAS","HPE","REGN","PGR","HPQ","BHF","TAP","BLK","DVA","DLTR","PYPL","CFG","JEC","DXC","IVZ","AYI","INTU","TXT","PWR","CDNS","WY","INTC","GPN","TDG","TXN","MCHP","VMC","OMC","HII","CB","DLR","NOC","ADS","SO","MCD","EIX"});
 		//for feb 14
 //		List<String> tickerList2 = Arrays.asList(new String[]{"UA","MAT","TRIP","UAA","FMC","CHK","BHF","KMX","HCP","AGN","SCG","GPS","LB","NWSA","KSS","RF","GGP","RRC","NWS","UAL","RHT","TGT","HCN","ALGN","FE","DLTR","VRTX","CMG","EXR","PCG","VNO","LRCX","PLD","AAL","WEC","DE","SLG","DRE","AEP","O","AMP","JEC","FRT","AMGN","MET","XLNX","AMAT","LNT","RL","BXP"});
+
 		
 		List<String> tickerList2 = Arrays.asList(new String[]{"NVDA"});
 		private void startAllTickers() throws InterruptedException{
@@ -172,17 +173,17 @@ public class CoreService {
 			if(tickerList==null){
 				int counter=0;
 				tickerList = tickerDao.findAll();
-				for (int i=0;i< tickerList.size()-4 ; i++) {
-					counter++;
-					taskHandler.addTicker(tickerList.get(i).getTicker(),false);
-				}
+//				for (int i=0;i< tickerList.size()-4 ; i++) {
+//					counter++;
+//					taskHandler.addTicker(tickerList.get(i).getTicker(),false);
+//				}
 
 
 //				Thread.sleep(3000);
-//				for (String ticker : tickerList2) {
-//					taskHandler.addTicker(ticker,true);
-//					counter++;
-//				}
+				for (String ticker : tickerList2) {
+					taskHandler.addTicker(ticker,true);
+					counter++;
+				}
 				mainL.info("total requested " +  counter);
 //				mainL.info("Scanning gapdown ...");
 //				gapScannerHandler = new ScannerHandler(taskHandler);				

@@ -21,6 +21,7 @@ import com.datastax.driver.core.Cluster;
 import com.datastax.driver.core.ResultSet;
 import com.datastax.driver.core.Row;
 import com.datastax.driver.core.Session;
+import com.sesnu.fireball.model.CandlePatternType;
 import com.sesnu.fireball.model.FBBar;
 import com.sesnu.fireball.model.IdenticalTrade;
 
@@ -33,7 +34,7 @@ public class CassandraService {
 	private Session session;
 	
 	//create table daily (dtstr text,ticker text,change double,gap_perc double,vol bigint, PRIMARY KEY (ticker,dtstr));
-   public static void main2(String args[]) throws InterruptedException{
+   public static void main(String args[]) throws InterruptedException{
 
 	   CassandraService casServ = new CassandraService();
 	   casServ.getSession();
@@ -41,16 +42,20 @@ public class CassandraService {
    
 	   File folder = new File(Util.getString("historicalPath"));
 	   File[] files = folder.listFiles();
-	   double couter =0;boolean start=false;boolean exited=false;
+	   double couter =0;boolean start=true;boolean exited=false;
 	   for (File file : files) {
 		   String ticker = file.getName().split(".txt")[0];
-		   if(ticker.equals("NVDA")) {}
-		   else if(ticker.equals("NWSA")) {
+		   if(ticker.equals("NVDA")) {
+//			   casServ.createTable(ticker);
+//			   casServ.writeDaily(ticker,executor); 
+		   }
+		   else if(ticker.equals("NWasdSA")) {
 			   start=true;
 		   }else if(ticker.equals("Zzz")){
 			   break;
 		   }else if(start) {
-//			   casServ.createTable(ticker);
+			   casServ.dropTable(ticker);
+			   casServ.createTable(ticker);
 			   casServ.writeDaily(ticker,executor); 
 			   
 		   }
@@ -66,15 +71,17 @@ public class CassandraService {
 	   System.out.println("Write complete!");
    }
    
-   public static void main(String args[]) throws InterruptedException{
+   public static void main2(String args[]) throws InterruptedException{
 	   CassandraService casServ = new CassandraService();
-	   Map<String,IdenticalTrade> matched = casServ.find("NVDA", 1.5, "br");
+	   Map<String,IdenticalTrade> matched = casServ.find("NVDA", 1, CandlePatternType.BEARISH);
 	   System.out.println(matched.size());
 	   
 	   
    }
    
-   public Map<String,IdenticalTrade> find(String ticker,double gap, String candleType) {
+   public Map<String,IdenticalTrade> find(String ticker,double gap, CandlePatternType fstCandle) {
+	   String candleType = fstCandle.equals(CandlePatternType.BEARISH)?"br":
+		   					(fstCandle.equals(CandlePatternType.BULLISH)?"bl":"dj");
 	   double from = gap - Math.abs(gap) * 0.1;
 	   double to = gap + Math.abs(gap) * 0.1 ;
 	   
@@ -238,6 +245,18 @@ public class CassandraService {
 	    	  mainL.info("table creation failed {}", e.getMessage());
 	      }
    }
+   
+   private void dropTable(String ticker) {
+	      //Query
+	      String query = "DROP TABLE " + ticker + ";";
+
+	      try {
+	      //Executing the query
+	    	  getSession().execute(query);
+	      }catch(Exception e) {
+	    	  mainL.info("table creation failed {}", e.getMessage());
+	      }
+}
    
    private Session getSession() {
 	      //Creating Cluster object

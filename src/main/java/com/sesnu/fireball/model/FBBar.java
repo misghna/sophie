@@ -612,7 +612,7 @@ public class FBBar implements Serializable{
 			
 			if(type.equals("historical")){
 		//		SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
-				SimpleDateFormat dateFormatter = new SimpleDateFormat("MM/dd/yyyy hhmm");
+				SimpleDateFormat dateFormatter = new SimpleDateFormat("MM/dd/yyyy HHmm");
 				dateFormatter.setTimeZone(TimeZone.getTimeZone("America/New_York"));
 				Date d = dateFormatter.parse(barC[0] + " " + barC[1]);
 				this.startTime = d.getTime();

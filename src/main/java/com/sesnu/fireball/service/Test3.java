@@ -3,17 +3,28 @@ package com.sesnu.fireball.service;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
+
+import com.sesnu.fireball.model.IdenticalTrade;
 
 public class Test3 {
 
 	public static void main(String[] args) {
 		
-		Calendar calendar = Calendar.getInstance();
-        calendar.setTimeInMillis(System.currentTimeMillis());
-       String dayOfWeek = calendar.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.getDefault());
-       System.out.println(dayOfWeek);
+		Map<String,Double> nameAge = new HashMap<String,Double>();
+		nameAge.put("Msghsde", 5.0);
+		nameAge.put("Msghe", 22.0);
+		nameAge.put("Tesfa", 12.1);
+		nameAge.put("asds", 13.0);
+		nameAge.put("Tesasdfa", 31.1);
+		nameAge.put("sdas", 52.0);
+		nameAge.put("fsd", 2.1);
+		nameAge = Util.reverseSortByValue(nameAge);
+		
+		System.out.println(nameAge);
 	}
 
 	

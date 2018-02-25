@@ -25,6 +25,8 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Random;
 import java.util.TimeZone;
+import java.util.TreeMap;
+import java.util.stream.Collectors;
 
 import javax.mail.Message;
 import javax.mail.MessagingException;
@@ -319,6 +321,22 @@ public class Util {
 		       return contract;
 		}
 	 	
+		
+	    public static <K, V extends Comparable<? super V>> Map<K, V> 
+        reverseSortByValue(Map<K, V> map) {
+        List<Map.Entry<K, V>> list = new LinkedList<Map.Entry<K, V>>(map.entrySet());
+        Collections.sort( list, new Comparator<Map.Entry<K, V>>() {
+            public int compare(Map.Entry<K, V> o2, Map.Entry<K, V> o1) {
+                return (o2.getValue()).compareTo( o1.getValue() );
+            }
+        });
+
+        Map<K, V> result = new LinkedHashMap<K, V>();
+        for (Map.Entry<K, V> entry : list) {
+            result.put(entry.getKey(), entry.getValue());
+        }
+        return result;
+    }
 
 	    public static <K, V extends Comparable<? super V>> Map<K, V> 
 	        sortByValue(Map<K, V> map) {
@@ -452,7 +470,7 @@ public class Util {
 			Calendar calendar = Calendar.getInstance();
 			calendar.setTimeZone(TimeZone.getTimeZone("America/New_York"));
 			calendar.setTimeInMillis(time);
-	        return calendar.get(Calendar.HOUR);
+	        return calendar.get(Calendar.HOUR_OF_DAY);
 		}
 	    
 	    public static double mean(List<Double> list){

@@ -16,6 +16,7 @@ import com.sesnu.fireball.model.DayStat;
 import com.sesnu.fireball.model.FBBar;
 import com.sesnu.fireball.model.FBOrderState;
 import com.sesnu.fireball.model.FBPosition;
+import com.sesnu.fireball.model.IdenticalTrade;
 import com.sesnu.fireball.model.Portofolio;
 import com.sesnu.fireball.model.Shares;
 import com.sesnu.fireball.model.SubmitedOrder;
@@ -52,7 +53,7 @@ public class TickerProcessor {
 	private boolean guest;
 	private DayStat dayStat;
 	private HistoricalProcessor hist;
-
+	private int todayDate;
 	
 	public TickerProcessor(ApiController api,String ticker,DaoService daoService,Common common,boolean guest){
 		this.api=api;
@@ -68,6 +69,7 @@ public class TickerProcessor {
 		orderStatusMap = new HashMap<Integer,String>();
 		this.ticker=ticker;
 		this.dayStat=new DayStat();
+		todayDate=Util.getDate(System.currentTimeMillis());
 	}
 	
 
@@ -103,25 +105,84 @@ public class TickerProcessor {
 
 	}
 	
-	boolean tickerDone=false;
+	boolean tickerStarted=false;	
+	boolean predDone=false;
+	Map<String,IdenticalTrade> identicalTradeList=null;
 	private void runApollo(FBBar bar){
 		if(list.size() > 2 && Util.getDate(list.get(list.size()-1).getStartTime())!=Util.getDate(list.get(list.size()-2).getStartTime()) && 
-				Util.getDate(bar.getStartTime())==Util.getDate(System.currentTimeMillis())
-				&& Math.abs(dayStat.getGapPerc()) >=0.3 && !tickerDone){
+				Util.getDate(bar.getStartTime())==todayDate
+				&& Math.abs(dayStat.getGapPerc()) >=0.3 && !tickerStarted){
 			 mainL.info("{} ~ gapped {} % on {}", ticker,dayStat.getGapPerc(),Util.getDateStr(bar.getStartTime()));
 			 mainL.info("barDetail" +  bar.toCSV());
-			 hist = new HistoricalProcessor(list,dayStat.getGap(),common);			
-			 new Thread(hist).start();
-			 tickerDone=true;
+			 extractYDayData(list);
+			 Map<String,IdenticalTrade> identicalTrades = new CassandraService().find(ticker, dayStat.getGapPerc(), bar.getCandleType());
+			 identicalTradeList = new Rmse().calc(ydayList, identicalTrades, "CLOSE",6);
+			 tickerStarted=true;
 		}
+		addChartData(bar);
 		
-//		if(!hist.getStatus().isEmpty() && hist.getHistResponse()!=null && hist.getHistResponse().getAction()!=null){
-//			
-//		}
+		// find predicted after 5 min
+		if(identicalTradeList!=null && identicalTradeList.size()>0 && todayBarList.size()>5 && !predDone) {
+			 List<FBBar> list5=todayBarList.subList(0, 5);
+			 IdenticalTrade identicalTrade = new Rmse().calcBest(list5, identicalTradeList, "CLOSE");
+			 addPredChartData(identicalTrade.getBarList());
+			 predDone = true;
+		}
+
 		
 	}
 
+	
+	List<List> todayData = new ArrayList<List>();
+	List<FBBar> todayBarList = new ArrayList<FBBar>();
+	@SuppressWarnings("unchecked")
+	private void addChartData(FBBar bar) {
+		if(Util.getDate(bar.getStartTime())!=todayDate)return;
+		 todayBarList.add(bar);
+		 List minuteData = new ArrayList();
+		 List time = new ArrayList();
+		 time.add(Util.getHrTime(bar.getStartTime()));
+		 time.add(Util.getMinTime(bar.getStartTime()));
+		 time.add(0);
+		 minuteData.add(time);
+		 minuteData.add(bar.close());
+		 todayData.add(minuteData);
+		 if(ticker.equals("NVDA"))
+			 common.sendMessage("chartData_Live_" + ticker, todayData.toString());
+	}
+	
+	
+	List<FBBar> ydayList = new ArrayList<FBBar>();
+	private void extractYDayData(List<FBBar> barList){
+		int prevDate = Util.getDate(barList.get(barList.size()-2).getStartTime());
+		for (FBBar bar : barList) {
+			if(Util.getDate(bar.getStartTime())==prevDate) {
+				 ydayList.add(bar);
+			}
+		}
+	}
+	
+	List<List> predData = new ArrayList<List>();
+	@SuppressWarnings("unchecked")
+	private void addPredChartData(List<FBBar> barList) {
+		double histFirstClose = barList.get(0).close();
+		FBBar firstBar = todayBarList.get(0);
+		for (FBBar bar : barList) {
+				 List minuteData = new ArrayList();
+				 List time = new ArrayList();
+				 time.add(Util.getHrTime(bar.getStartTime()));
+				 time.add(Util.getMinTime(bar.getStartTime()));
+				 time.add(0);
+				 minuteData.add(time);
+				 minuteData.add(bar.close() * firstBar.close()/histFirstClose);
+				 minuteData.add(firstBar.low());
+				 minuteData.add(firstBar.high());
+				 predData.add(minuteData);
+		}
 
+		 if(ticker.equals("NVDA"))
+			 common.sendMessage("chartData_Pred_" + ticker, predData.toString());
+	}
 
 	
 	private void processOrder(Shares shares,FBBar bar){
@@ -166,13 +227,11 @@ public class TickerProcessor {
 
 
 	public void updatePortofolio(Portofolio portofolio) {
-		// TODO Auto-generated method stub
 		
 	}
 
 
 	public void updateLive(FBBar fbBar) {
-		// TODO Auto-generated method stub
 		
 	}
 	

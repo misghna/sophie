@@ -39,10 +39,11 @@ public class ConnectionManager {
 				trialCounter ++;
 			
 				//retry
-				api.disconnect();
-				Thread.sleep(1000);	
-				api = new ApiController(conHandler,new LoggerInHandler(),new LoggerOutHandler());
-				api.connect(Util.getString("gatewayIp"), Util.getInt("gatewayPort"), DEFAULT_CONNECTION_ID, null);
+				if(!conHandler.isConnected()){
+					api.disconnect();
+					api = new ApiController(conHandler,new LoggerInHandler(),new LoggerOutHandler());
+					api.connect(Util.getString("gatewayIp"), Util.getInt("gatewayPort"), DEFAULT_CONNECTION_ID+1, null);
+				}
 			}
 			
 			if(conHandler.isIbControllerOff()){

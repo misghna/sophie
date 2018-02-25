@@ -396,7 +396,7 @@ public class HistoricalProcessor implements Runnable {
 		int yday = Util.getDate(ydayList.get(0).getStartTime());
 		int prevDay = Util.getDate(prevDayList.get(0).getStartTime());
 		
-		rmseSum +=new Rmse().calc(ydayList,prevDayList,yday,prevDay,"CLOSE");
+//		rmseSum +=new Rmse().calc(ydayList,prevDayList,yday,prevDay,"CLOSE");
 
 //		rmseSum +=new Rmse().calc(ydayList,prevDayList,yday,prevDay,"HIGH");
 //		rmseSum +=new Rmse().calc(ydayList,prevDayList,yday,prevDay,"LOW");
